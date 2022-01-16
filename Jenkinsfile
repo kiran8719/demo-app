@@ -7,6 +7,7 @@ pipeline{
                 stage("SCM"){
                       steps{
                           echo "job run again and again........"
+                          echo "multiple test cases......"
                       }
                 }
             }
